@@ -4,7 +4,6 @@ public class Bruteforcer{
     public static void main(String[]args){
         long worldseed = 0;
         long outcount = 0;
-        long startTime = System.currentTimeMillis();
         while (worldseed < 4294967296L) {
             long randomInternalState1 = (worldseed ^ 25214903917L) % 281474976710656L;
             long randomInternalState2 = (randomInternalState1 * 25214903917L + 11L) % 281474976710656L;
@@ -17,7 +16,5 @@ public class Bruteforcer{
             }
             worldseed = worldseed + 1;
         }
-        long exetime = System.currentTimeMillis() - startTime;
-        System.out.println("Second: " + exetime/1000);
     }
 }
