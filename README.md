@@ -24,6 +24,7 @@ Just input Bruteforecer.java. Below that you will have to input a working direct
 
 You will now need to paste the path your copied earlier into there.
 ![image](https://github.com/Epic10l2/Bruteforce-Pillarseed-bit-reverseal/assets/159151274/bb684414-43f3-4d7a-80f3-3c6886065c72)
+(You dont have to copy the --enable-preview)
 
 Now change the run configuration right next to the start button to the newly added run configuration.
 
