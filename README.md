@@ -2,11 +2,8 @@
 Bruteforces possible lower 32 bits of a seed using the pillar seed.
 
 To input a Pillar seed you will have to open the Bruteforcer.java and find line 9:
-if (pillarseed == ) {
-                 
-                 |
-                Pillarseed
-                
+if (pillarseed == yourpillarseedhere) {
+                                 
 As shown above you just input your pillarseed there.
 
 To run the programm easely i recommend installing intellij idea community edition opening the project there.
