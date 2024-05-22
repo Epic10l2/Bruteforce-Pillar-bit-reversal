@@ -3,6 +3,7 @@ Bruteforces possible lower 32 bits of a seed using the pillar seed.
 
 To input a Pillar seed you will have to open the Bruteforcer.java and find line 9:
 if (pillarseed == ) {
+                 
                  |
                 Pillarseed
                 
