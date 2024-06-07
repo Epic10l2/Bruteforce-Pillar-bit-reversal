@@ -3,7 +3,6 @@ import java.util.Random;
 public class Bruteforcer{
     public static void main(String[]args){
         long worldseed = 0;
-        long outcount = 0;
         while (worldseed < 4294967296L) {
             long randomInternalState1 = (worldseed ^ 25214903917L) & (281474976710656L-1);
             long randomInternalState2 = (randomInternalState1 * 25214903917L + 11L) & (281474976710656L-1);
